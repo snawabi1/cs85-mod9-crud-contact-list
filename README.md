@@ -27,11 +27,11 @@ A Laravel-based CRUD contact management application with full indexing functiona
 - Sample data included for testing
 
 ## Technologies Used
-- Laravel 11
-- PHP 8.4
-- MySQL
-- Bootstrap 5
-- HTML/CSS
+- **Laravel 11**: The main framework handling the backend structure
+- **PHP 8.4**: The programming language running your server-side code
+- **MySQL**: The database storing all your contact information
+- **Bootstrap 5**: Making your interface look professional and responsive
+- **HTML/CSS**: The foundation of your web interface
 
 ## Status
 ✅ All indexing issues resolved
