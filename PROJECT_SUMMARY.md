@@ -11,7 +11,7 @@ When I started working on this assignment, the indexing had several critical iss
 3. **Laravel Server Binding Issues**: `php artisan serve` wouldn't start
 4. **Duplicate View Files**: Conflicting index.blade.php files
 5. **No Error Handling**: Silent failures with no user feedback
-6. **Project Location Issues**: Had to run as admin and recreate the project multiple times before discovering it was located in the x86 folder instead of the expected location
+6. **Project Location Issues**: Had to recreate the project multiple times      before discovering it was located in the x86 folder instead of the expected location
 
 ## 🔧 SOLUTIONS IMPLEMENTED
 
