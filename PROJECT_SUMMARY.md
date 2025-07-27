@@ -11,6 +11,7 @@ When I started working on this assignment, the indexing had several critical iss
 3. **Laravel Server Binding Issues**: `php artisan serve` wouldn't start
 4. **Duplicate View Files**: Conflicting index.blade.php files
 5. **No Error Handling**: Silent failures with no user feedback
+6. **Project Location Issues**: Had to run as admin and recreate the project multiple times before discovering it was located in the x86 folder instead of the expected location
 
 ## 🔧 SOLUTIONS IMPLEMENTED
 
@@ -53,6 +54,12 @@ class Contact extends Model
 - Added try/catch blocks for database operations
 - Implemented user feedback messages
 - Added success/error alerts
+
+### Problem 6: Project Setup and Location Issues
+- **Initial Challenge**: Started troubleshooting without admin privileges, then had to run PowerShell as administrator multiple times
+- **Discovery Process**: Created and recreated the Laravel project several times
+- **Root Cause**: Project was located in `Program Files (x86)` folder rather than expected location
+- **Resolution**: Found the correct project path and worked directly with the existing installation
 
 ## 📊 FINAL RESULT
 
